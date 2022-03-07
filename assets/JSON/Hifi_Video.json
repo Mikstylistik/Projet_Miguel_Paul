@@ -1,0 +1,288 @@
+
+mag1 = {
+
+  "sono":[
+      
+  {
+   
+   "img":"https://www.algam-webstore.fr/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/5/7/571580-571580-media_photo-sqc-rmx4050a.png",
+   "titre1": "RMX4050a",
+  "description2": "Euroblock 3 broches, XLR  ", 
+  "prix3":"1629€",
+  
+  },
+  
+  
+  {
+   "img":"https://www.algam-webstore.fr/media/catalog/product/cache/image/e9c3970ab036de70892d86c6d221abfe/5/7/571584-571584-media_photo2-sqc-pld43-3.png",
+   
+   "titre1": "QSC Live Sound Ampli  ",
+   "description2": "ca envoi du lourd" ,
+   "prix3":"2229€",
+  },
+  
+  
+  
+  
+  
+   {
+    "img":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQfvOMnI--wjZlobuOkDscF4wRAl_xqj7VAdh1Wo23aqDIryKN7FffnGnzQIZdGvEun1nkaHxcq7dKQw3tihxJsXvy9-z4lUqOUWlsnG8jeeGgRpL8lLYCbRg&usqp=CAE",
+    "titre1": "EuroliteTMH-17" ,
+    "description2": " une enceinte qui sort du son ",
+    "prix3":"219€",
+   },
+   
+   
+   {
+   
+   
+     "img":"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSJBqrn2BeUwIXXvUJw_eYU3lWwRpEEOBqzgohFxhIiSyGT0WcyWM_uIMUIZNUwZCh6YnrH_kqod8twe6_BMYOW-lAyUvV88cVmSM3qpoxnQS-u2azYsKN5IQ&usqp=CAE",
+     "titre1": " DZR12 Yamaha ",
+     "description2": "Fréquence : 39 Hz - 20 kHz",
+     "prix3":"782€",
+    },
+   
+   
+   
+   
+  
+    
+   
+   
+    {
+   
+     "img":"https://www.maison-du-cable.com/images0/30531-1_5/Bosch-PRS-NCO3-praesideo-controleur-reseau--28-canaux.jpg",
+     "titre1": "Bosch PRS-NCO3  ",
+     "description2": " S/B > : 87  ",
+     "prix3":"5044€",
+    },
+   
+    {
+   
+   
+     "img":"https://www.accessoires-informatiques.com/images1/42055-1_5/Bosch-LBB1990-00-plena-controleur-sonorisation-et-evacuation.jpg",
+     "titre1": "Bosch LBB1990",
+     "description2": "Aigus : -8/+8 dB à 10 kHz",
+     "prix3":"1852€",
+    },
+   
+   
+    {
+   
+      "img":"https://static.fnac-static.com/multimedia/Images/4C/4C/5C/81/8477772-1505-1540-1/tsp20210901065145/enceinte-mobile-mydj-djoon08-party-karaoke-dj-sono-pa-batterie-8-400w-a-leds-rvb-usb-sd-bt-micro-vhf-ovni.jpg#7e7c6a51-616b-4e42-a21e-701f421548b1",
+      "titre1": "party karaoké dj sono",
+      "description2": "Boomer 20cm / 8 Inch ",
+      "prix3":"68€",
+     },
+    
+     {
+    
+    
+      "img":"https://www.vhsparis.com/52439-medium_default/muse-m-330-dj-enceinte-bluetooth-portable.jpg",
+      "titre1": "LG XBOOM",
+      "description2": " hautparleur de fête puissant",
+      "prix3":"128€",
+     },
+    
+    
+  ]
+    
+  }
+
+
+
+mag= {
+
+
+
+"hifi":[
+    
+{
+ 
+ "img":"https://dfxqtqxztmxwe.cloudfront.net/images/article/lg/LGOLED55C1/oled55c1_6061cbd7451b7_600.jpg",
+ "titre1": "LG OLED55C1",
+"description2": "55' dolby vision 120fps ",
+
+"prix3":"1790€",
+
+
+},
+
+
+{
+ "img":"https://dfxqtqxztmxwe.cloudfront.net/images/article/samsung/SAMSQE55LS03A/the-frame-qe55ls03a-2021_603cf18fed04b_600.jpg",
+ 
+ "titre1": "SAMSUNG THE FRAME ",
+ "description2": "48' '4k connecté ",
+ "prix3":"1890€",
+
+
+
+},
+
+
+
+
+
+ {
+  "img":"https://dfxqtqxztmxwe.cloudfront.net/images/article/yamaha/YAMRXV6ANR/rx-v6a_5f477a6309bde_600.jpg",
+  "titre1": "Yamaha RX-V6A" ,
+  "description2": " Atmos/DTS:X, MusicCast, ",
+  "prix3":"899€",
+ },
+ 
+ 
+ {
+ 
+ 
+   "img":"https://dfxqtqxztmxwe.cloudfront.net/images/article/denon/DENAVCX4700HSR/avc-x4700h-silver_5eda573986b08_600.jpg",
+   "titre1": " Denon AVC-X4700H Silver ",
+   "description2": "125 W /canal, HDMI 2.1 ",
+   "prix3":"1899€",
+  },
+ 
+
+  {
+ 
+   "img":"https://dfxqtqxztmxwe.cloudfront.net/images/article/kef/KEFLS50NRMWI2/ls50-wireless-2-noir-mat_5f68a31f62f98_600.jpg",
+   "titre1": "KEF LS50 WIRELESS 2  ",
+   "description2": "2x 100 W, Chromecast ",
+   "prix3":"2799€",
+  },
+ 
+  {
+ 
+ 
+   "img":"https://dfxqtqxztmxwe.cloudfront.net/images/article/kef/KEFR3BC/r3-blanc-laque_5bbdff6443d38_600.jpg",
+   "titre1": "KEF R3 Blanc laqué",
+   "description2": "180 W, haut-parleur UniQ",
+   "prix3":"1590€",
+  },
+ 
+ 
+  {
+ 
+    "img":"https://dfxqtqxztmxwe.cloudfront.net/images/article/klipsch/KLITHX1200SW/thx-1200-sw_5fb39ee2159b7_600.jpg",
+    "titre1": "Klipsch THX-1200-SW",
+    "description2": "Passif, HP ",
+    "prix3":"2199€",
+   },
+  
+   {
+  
+  
+    "img":"https://dfxqtqxztmxwe.cloudfront.net/images/article/dynaudio/DYNASUB6BCSAT/sub-6-blanc-satine_618bdc897f92d_600.jpg",
+    "titre1": "DYNAUDIO SUB 6",
+    "description2": "2x HP de 24 cm, 500 watts,",
+    "prix3":"1899€",
+   },
+  
+  
+]
+  
+}
+
+
+mag2= {
+
+
+
+
+  "light":[
+      
+  {
+   
+   "img":"https://static.fnac-static.com/multimedia/Images/60/36/42/11/18096992-1505-1540-1/tsp20220215034358/EUROLITE-LED-Strobe-SMD-PRO-540-DMX-RGB.jpg#985d78e6-a8c2-4c6e-ab33-53849245af18",
+   "titre1": "SMD PRO 540",
+  "description2": "540 LED RVB lumineuses  ",
+  
+  "prix3":"1790€",
+  
+  
+  },
+  
+  
+  {
+   "img":"https://static.fnac-static.com/multimedia/Images/2A/32/42/11/18096938-1505-1540-1/tsp20220215034355/EUROLITE-LED-PLL-360-6000K-Panel.jpg#12fee59c-2377-4ce9-bbd7-72bb26411a80",
+   
+   "titre1": "Eurolite PLL360 ",
+   "description2": "360 LEDs SMD WW ",
+   "prix3":"1890€",
+  
+  
+  
+  },
+  
+  
+  
+  
+  
+   {
+    "img":"https://static.fnac-static.com/multimedia/Images/1A/31/42/11/18096922-1505-1540-1/tsp20220215053401/EUROLITE-LED-TMH-17-Moving-Head-Spot.jpg#c4786911-7a8d-4fa5-8a9f-c18dea7a918f",
+    "titre1": "EuroliteTMH-17" ,
+    "description2": "7 couleurs dichroïque ",
+    "prix3":"219€",
+   },
+   
+   
+   {
+   
+   
+     "img":"https://static.fnac-static.com/multimedia/Images/10/31/42/11/18096912-1505-1540-1/tsp20220215053207/EUROLITE-LED-TMH-41-Hypno-Moving-Head-Spot.jpg#6d884602-94f0-4e9a-b474-702a26dcfabd",
+     "titre1": "EUROLITE TMH-41 ",
+     "description2": "Hypno Moving Head Spot1 ",
+     "prix3":"382€",
+    },
+   
+   
+   
+   
+  
+    
+   
+   
+    {
+   
+     "img":"https://static.fnac-static.com/multimedia/Images/08/30/42/11/18096904-1505-1540-1/tsp20220215053352/EUROLITE-LED-TSL-150-Scan-COB.jpg#9eaa79fc-a4ed-49b9-a2f8-a11e630db084",
+     "titre1": "Scanner COB  ",
+     "description2": " LED COB de 30 Watt ",
+     "prix3":"209",
+    },
+   
+    {
+   
+   
+     "img":"https://static.fnac-static.com/multimedia/Images/03/30/42/11/18096899-1505-1505-1/tsp20220215034348/EUROLITE-LED-ML-46-COB-CW-WW-50W-Floor-bk.jpg#3d06d8a6-6f75-4b45-bffe-08d0a0e590a6",
+     "titre1": "LED-ML-46-COB",
+     "description2": "180 W, 3 voies",
+     "prix3":"289€",
+    },
+   
+   
+    {
+   
+      "img":"https://static.fnac-static.com/multimedia/Images/8E/68/43/11/18101902-1505-1540-1/tsp20220215042645/Cameo-Q-SPOT-15-RGBW-projecteur-LED-compact.jpg#097c4bdc-c8b9-4296-875b-04f0f3ece251",
+      "titre1": "Cameo Q-Spot",
+      "description2": "6x LED de 15 Watt RGBAW-UV ",
+      "prix3":"2199€",
+     },
+    
+     {
+    
+    
+      "img":"https://static.fnac-static.com/multimedia/Images/15/31/44/11/18105109-1505-1540-1/tsp20220215054143/JB-systems-Accu-Compact-projecteur-a-LED.jpg#a52fb7a0-dc6d-478c-b861-df4b50755a07",
+      "titre1": "JB systems",
+      "description2": "12x LED QCL RGB",
+      "prix3":"220€",
+     },
+    
+    
+  ]
+    
+  }
+
+
+
+
+
+

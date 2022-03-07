@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "font_title";
+  src: url(/assets/Fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: "font_1";
+  src: url(/assets/Fonts/League_Spartan/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+  font-family: "font_2";
+  src: url(/assets/Fonts/League_Spartan/LeagueSpartan-Light.ttf);
+}
+
+@font-face {
+  font-family: "font_price";
+  src: url(/assets/Fonts/League_Spartan/LeagueSpartan-Black.ttf);
+}
+
+body {
+  margin: auto;
+  padding: auto;
+  /* background-position: center; */
+}
+
+header {
+  display: flex;
+  background-image: url(/assets/IMG/visuel_eclairage_test.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 160px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header p {
+  margin-top: 5px;
+  color: white;
+}
+
+.logo {
+  height: 120px;
+  margin-left: 30px;
+}
+
+.icons {
+  display: flex;
+  list-style-type: none;
+  margin-left: 920px;
+}
+
+.icons li {
+  display: block;
+  margin-left: 50px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+}
+
+input {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -35px;
+  padding: 5px;
+  width: 300px;
+}
+
+nav img {
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 300px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  margin-left: 200px;
+  margin-top: -32px;
+  font-family: "font_1", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.navbar li {
+  margin-left: 210px;
+}
+
+.navbar a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  /* color: cyan; */
+  left: 0;
+  width: 100%;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+  /* text-decoration: underline; */
+}
+
+.navbar a::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: cyan;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.navbar a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.navbar .eclairage_title {
+  color: cyan;
+}
+
+#wrap {
+  margin-top: 10px;
+  background-color: rgb(255, 250, 249);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bdiv {
+  background-color: rgba(240, 240, 240, 0);
+  position: relative;
+  right: 20px;
+  bottom: 70px;
+  margin-bottom: -170px;
+  margin-top: -40px;
+  margin-left: 240px;
+  margin-right: 200px;
+  /* regroupe les p  img button
+    */
+}
+
+.img {
+  position: relative;
+  right: 100px;
+  margin-bottom: 100px;
+  margin-top: -135px;
+  width: 100%;
+}
+
+.p1,
+.p2,
+.p3 {
+  position: relative;
+  margin-left: -180px;
+  width: 250px;
+}
+
+.p1 {
+  color: rgb(0, 0, 0);
+  /* position: relative; */
+  top: 150px;
+  left: 420px;
+  font-family: "font_title", sans-serif;
+  /* font-weight: bolder; */
+  font-size: larger;
+  z-index: 1;
+}
+
+.p2 {
+  /* position: relative; */
+  top: 140px;
+  left: 420px;
+  color: rgb(0, 0, 0);
+  font-family: "font_1", sans-serif;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.p3 {
+  /* position: relative; */
+  top: 120px;
+  left: 420px;
+  color: rgb(187, 33, 33);
+  font-family: "font_price", sans-serif;
+  font-size: 40px;
+  z-index: 1;
+}
+
+button {
+  position: relative;
+  left: 240px;
+  top: 350px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  font-family: "font_3", sans-serif;
+  font-size: 15px;
+
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+button:hover {
+  cursor: pointer;
+  background: red;
+  color: white;
+  transition: 0.5s;
+}
+
+p {
+  font-family: "font_2", Courier, monospace;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  background-color: black;
+  height: 100px;
+  width: auto;
+}
+
+.newsletter {
+  color: white;
+  /* margin-top: -5px; */
+  margin-bottom: 50px;
+  margin-left: 20px;
+  width: 600px;
+}
+
+.conditions {
+  display: flex;
+  color: white;
+  /* margin-left: 20px; */
+  width: 500px;
+}
+
+.conditions ul {
+  font-family: "font_1", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: -40px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  list-style-type: none;
+}
+
+.icon_copyright {
+  margin-top: 26px;
+  margin-left: 120px;
+  /* margin-right: 10px; */
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-top: 32px;
+  margin-left: 20px;
+}
+
+footer img {
+  margin-top: -10px;
+}

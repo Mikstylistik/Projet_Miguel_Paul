@@ -1,0 +1,276 @@
+@font-face {
+  font-family: "font_title";
+  src: url(/assets/Fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face {
+  font-family: "font_1";
+  src: url(/assets/Fonts/League_Spartan/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+  font-family: "font_2";
+  src: url(/assets/Fonts/League_Spartan/LeagueSpartan-Light.ttf);
+}
+
+@font-face {
+  font-family: "font_price";
+  src: url(/assets/Fonts/League_Spartan/LeagueSpartan-Black.ttf);
+}
+
+body {
+  margin: auto;
+  padding: auto;
+  /* background-position: center; */
+}
+
+header {
+  display: flex;
+  background-image: url(/assets/IMG/visuel_enceinte_OK.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 160px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header p {
+  margin-top: 5px;
+  color: white;
+}
+
+.logo {
+  height: 120px;
+  margin-left: 30px;
+}
+
+.icons {
+  display: flex;
+  list-style-type: none;
+  margin-left: 920px;
+}
+
+.icons li {
+  display: block;
+  margin-left: 50px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+}
+
+input {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -35px;
+  padding: 5px;
+  width: 300px;
+}
+
+nav img {
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 300px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  margin-left: 200px;
+  margin-top: -32px;
+  font-family: "font_1", sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.navbar li {
+  margin-left: 210px;
+}
+
+.navbar a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  /* color: yellow; */
+  left: 0;
+  width: 100%;
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+  /* text-decoration: underline; */
+}
+
+.navbar a::after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: yellow;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.navbar a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.navbar .hifi_title {
+  color: yellow;
+  text-shadow: 1px 1px 2px black, 0 0 2em black, 0 0 0.3em black;
+}
+/* .content {
+  background: white;
+  height: 300px;
+  width: auto;
+} */
+
+#wrap {
+  margin-top: 10px;
+  background-color: rgb(255, 250, 249);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.p1,
+.p2,
+.p3 {
+  position: relative;
+  margin-left: -180px;
+  width: 250px;
+}
+
+.bdiv {
+  background-color: rgba(240, 240, 240, 0);
+  position: relative;
+  right: 20px;
+  bottom: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.img {
+  position: relative;
+  right: 100px;
+  margin-bottom: 100px;
+  margin-top: -135px;
+  width: 100%;
+}
+
+.bt1 {
+  position: relative;
+  top: 724px;
+  left: 220px;
+}
+
+.p1 {
+  color: rgb(0, 0, 0);
+  top: 60px;
+  left: 500px;
+  /* font-weight: bolder; */
+  font-family: "font_title", sans-serif;
+  font-size: larger;
+  align-items: center;
+}
+
+.p2 {
+  top: 60px;
+  left: 500px;
+  color: rgb(0, 0, 0);
+  font-family: "font_1", sans-serif;
+  font-size: 20px;
+}
+
+.p3 {
+  top: 60px;
+  left: 500px;
+  color: rgb(187, 33, 33);
+  font-family: "font_price", sans-serif;
+  font-size: 40px;
+}
+
+button {
+  position: relative;
+  left: 320px;
+  top: 280px;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  font-family: "font_3", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: red;
+  color: white;
+  transition: 0.5s;
+}
+
+p {
+  font-family: "font_2", Courier, monospace;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  background-color: black;
+  height: 100px;
+  width: auto;
+}
+
+.newsletter {
+  color: white;
+  /* margin-top: -5px; */
+  margin-bottom: 50px;
+  margin-left: 20px;
+  width: 600px;
+}
+
+.conditions {
+  display: flex;
+  color: white;
+  /* margin-left: 20px; */
+  width: 500px;
+}
+
+.conditions ul {
+  font-family: "font_1", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: -40px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  list-style-type: none;
+}
+
+.icon_copyright {
+  margin-top: 26px;
+  margin-left: 120px;
+  /* margin-right: 10px; */
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin-top: 32px;
+  margin-left: 20px;
+}
+
+footer img {
+  margin-top: -10px;
+}
